@@ -56,7 +56,7 @@ Foi recriado o modelo de interface disponibilizado pelo instrutor no Figma, visa
   <br>
 </html>
 
-> ### link do site disponibilizado: https://delgatech-project-002.netlify.app/#services-container
+> ### link do site disponibilizado: https://delgatech-project-002.netlify.app
 
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:30363d&height=150&section=footer)
