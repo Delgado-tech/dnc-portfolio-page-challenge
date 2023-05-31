@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <title>Portfólio</title>
+</head>
+<body>
+    <div id="header">
+        <a href="#main"><h1>Portfólio</h1></a>
+        <div id="nav">
+            <ul>
+                <li><a href="#services-container">Meus Serviços</a></li>
+                <li><a href="#contact-image">Fale Comigo</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+            </ul>   
+        </div>
+    </div>  
+    <div id="main">
+        <div id="apresentation">
+            <div id="apresentation-text">
+                <h2>Olá, meu nome <br/> é Maria</h2>
+                <p>Sou programadora e gostaria de apresentar meu
+                    trabalho para você através deste portfólio.</p>
+                <a href="#services-container"><button>Meus Serviços</button></a>
+            </div>
+            <div id="apresentation-image">
+                <img src="./assets/images/profile.svg" />
+            </div>
+        </div>
+        <div id="clients">
+            <h3>Alguns dos <br/> meus clientes</h3>
+            <div class="clients-logo">
+                <a href="https://www.apple.com/br/" target="_blank"><img src="./assets/images/logo-apple.svg" /></a>
+            </div>
+            <div class="clients-logo">
+                <a href="https://slack.com/intl/pt-br/" target="_blank"><img src="./assets/images/logo-slack.svg" /></a>
+            </div>
+            <div class="clients-logo">
+                <a href="https://open.spotify.com/" target="_blank"><img src="./assets/images/logo-spotify.svg" /></a>
+            </div>
+        </div>
+        <div id="services-container">
+            <div id="services-top">
+                <h2 class="over-title">Conheça</h2>
+                <h2 class="title">Meus Serviços</h2>
+                <p>Vou ajudar a sua empresa a
+                    alcançar grandes resultados.</p>
+            </div>
+            <div id="services-itens">
+                <div class="services-item">
+                    <img src="./assets/icons/consultoria.svg"/>
+                    <div class="services-item-text">
+                        <h3>Consultoria</h3>
+                        <p>Te ajudo a organizar sua empresa
+                            e melhorar seus resultados.</p>
+                    </div>
+                </div>
+                    <div class="services-item">
+                        <img src="./assets/icons/marketing.svg"/>
+                        <div class="services-item-text">
+                        <h3>Email Marketing</h3>
+                        <p>Gerenciar campanhas é difícil.
+                            Conte comigo para te ajudar.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <img src="./assets/icons/sites.svg"/>
+                    <div class="services-item-text">
+                        <h3>Criação de Sites</h3>
+                        <p>Desenvolvo seu site inteiro
+                            do zero e te entrego prontinho.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="services-contact">
+                <div id="contact-image">
+                    <img src="./assets/images/contact.svg" />
+                </div>
+                <div id="contact-form">
+                    <h2 class="over-title">Economize seu tempo</h2>
+                    <h2 class="title">Ganhe mais dinheiro</h2>
+                    <p>Digite aqui seu endereço de e-mail. Eu entrarei em
+                        contato para fornecer um diagnóstico gratuito.</p>
+                    <form onsubmit="event.preventDefault();">
+                        <input type="email" name="Email" placeholder="E-mail" required>
+                        <button id="btn-form" type="submit">Enviar</button> <!--Não foi adicionado submit, por ser apenas demonstrativo!-->
+                    </form>
+                </div>
+            </div>
+            <div id="portfolio">
+                <div id="portfolio-top">
+                    <h2 class="over-title">Conheça meu trabalho</h2>
+                    <h2 class="title">Portfólio</h2>
+                </div>
+                <div id="portfolio-itens">
+                    <div class="portfolio-item">
+                        <img src="./assets/images/portfolio-project-1.svg" />
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./assets/images/portfolio-project-2.svg" />
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="./assets/images/portfolio-project-3.svg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>Front-end baseado em modelo Figma (js e reponsividade elaborado do zero pelo autor)</p>
+        <p><a href="https://github.com/Delgado-tech" target="_blank"><strong>&lt;/&gt; GitHub</strong></a></p>
+    </div>
+
+
+    <div id="notification">
+        <p>E-mail enviado com sucesso!</p>
+    </div>
+
+    <script src="./scripts/image-rotation.js"></script>
+    <script src="./scripts/portfolio-hover.js"></script>
+    <script src="./scripts/send-email.js"></script>
+</body>
+</html>
